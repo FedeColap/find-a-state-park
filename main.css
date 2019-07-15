@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: green;
+  }
+  
+  button, input[type="text"] {
+    padding: 5px;
+  }
+  
+  .submit {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+  }
+  
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
